@@ -135,3 +135,17 @@ ul li:nth-child(odd) {
 ::-webkit-scrollbar-thumb:hover {
     background: #8B4513; /* Saddle brown */
 }
+
+#currTime {
+    color: #e1ceac; /* Wheat color for text */
+    font-size: 1.5em;
+    text-align: center;
+    /* make draw over the top and fixed*/
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    margin: 0 auto;
+    background-color: #5D4E40; /* Dark brown */
+    padding: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
